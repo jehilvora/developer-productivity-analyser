@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "repo": "PostHog/posthog",
+    "top_n": 10,
+    "lookback_days": 90,
+    "score_weights": {
+      "prs": 2.0,
+      "issues_closed": 3.0,
+      "reviews_given": 1.5
+    },
+    "generated_at": "2026-04-04T23:11:01.550167+00:00"
+  },
+  "users": [
+    {
+      "username": "greptile-apps",
+      "score": 889.5,
+      "prs": 0,
+      "issues_closed": 0,
+      "reviews_given": 593
+    },
+    {
+      "username": "graphite-app",
+      "score": 291.0,
+      "prs": 0,
+      "issues_closed": 0,
+      "reviews_given": 194
+    },
+    {
+      "username": "copilot-pull-request-reviewer",
+      "score": 264.0,
+      "prs": 0,
+      "issues_closed": 0,
+      "reviews_given": 176
+    },
+    {
+      "username": "dmarticus",
+      "score": 195.0,
+      "prs": 12,
+      "issues_closed": 47,
+      "reviews_given": 20
+    },
+    {
+      "username": "pauldambra",
+      "score": 174.5,
+      "prs": 34,
+      "issues_closed": 20,
+      "reviews_given": 31
+    },
+    {
+      "username": "rafaeelaudibert",
+      "score": 130.5,
+      "prs": 15,
+      "issues_closed": 7,
+      "reviews_given": 53
+    },
+    {
+      "username": "arthurdedeus",
+      "score": 121.5,
+      "prs": 9,
+      "issues_closed": 29,
+      "reviews_given": 11
+    },
+    {
+      "username": "andrewm4894",
+      "score": 120.5,
+      "prs": 34,
+      "issues_closed": 9,
+      "reviews_given": 17
+    },
+    {
+      "username": "sampennington",
+      "score": 115.0,
+      "prs": 29,
+      "issues_closed": 10,
+      "reviews_given": 18
+    },
+    {
+      "username": "thmsobrmlr",
+      "score": 112.5,
+      "prs": 24,
+      "issues_closed": 13,
+      "reviews_given": 17
+    }
+  ]
+}

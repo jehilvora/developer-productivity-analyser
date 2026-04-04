@@ -1,0 +1,8 @@
+requests
+google-genai
+instructor
+pydantic
+streamlit
+plotly
+pandas
+python-dotenv
