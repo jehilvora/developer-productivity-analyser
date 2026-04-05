@@ -1,14 +1,14 @@
 {
   "meta": {
     "repo": "PostHog/posthog",
-    "top_n": 10,
+    "top_n": 5,
     "lookback_days": 90,
     "score_weights": {
       "prs": 2.0,
       "issues_closed": 3.0,
       "reviews_given": 1.5
     },
-    "generated_at": "2026-04-05T01:29:07.624722+00:00"
+    "generated_at": "2026-04-05T06:17:08.470651+00:00"
   },
   "users": [
     {
@@ -45,41 +45,6 @@
       "prs": 175,
       "issues_closed": 1,
       "reviews_given": 182
-    },
-    {
-      "username": "haacked",
-      "score": 584.5,
-      "prs": 128,
-      "issues_closed": 19,
-      "reviews_given": 181
-    },
-    {
-      "username": "Radu-Raicea",
-      "score": 579.0,
-      "prs": 48,
-      "issues_closed": 0,
-      "reviews_given": 322
-    },
-    {
-      "username": "dmarticus",
-      "score": 573.5,
-      "prs": 118,
-      "issues_closed": 40,
-      "reviews_given": 145
-    },
-    {
-      "username": "thmsobrmlr",
-      "score": 555.0,
-      "prs": 96,
-      "issues_closed": 9,
-      "reviews_given": 224
-    },
-    {
-      "username": "sampennington",
-      "score": 522.0,
-      "prs": 132,
-      "issues_closed": 10,
-      "reviews_given": 152
     }
   ]
 }

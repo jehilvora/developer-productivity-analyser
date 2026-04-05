@@ -13,7 +13,7 @@ GITHUB_REPO = os.getenv("GITHUB_REPO", "")
 LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "90"))
 
 # ── Scoring ───────────────────────────────────────────────────────────────────
-TOP_N_USERS = int(os.getenv("TOP_N_USERS", "10"))
+TOP_N_USERS = int(os.getenv("TOP_N_USERS", "5"))
 
 SCORE_WEIGHTS = {
     "prs": 2.0,

@@ -2,78 +2,43 @@
   "meta": {
     "model": "gemini-2.5-flash-lite",
     "repo": "PostHog/posthog",
-    "generated_at": "2026-04-05T03:28:57.158933+00:00"
+    "generated_at": "2026-04-05T06:19:41.797418+00:00"
   },
   "profiles": {
     "rafaeelaudibert": {
       "technical_complexity": 7,
       "mentorship_signal": 6,
       "is_refactor_heavy": false,
-      "impact_persona": "The Integrator",
-      "summary_justification": "High volume of PRs (145) focused on feature additions and fixes, particularly around OAuth and app integrations (e.g. Stripe, Vercel). Mentorship is present but could be deeper, with several approvals lacking detailed comments. PR #51379 shows refactoring but is an outlier."
+      "impact_persona": "The Feature Implementer",
+      "summary_justification": "Rafaela has a high volume of merged PRs (145) in the last 90 days, indicating consistent delivery. PRs like #52324 (25 files) and #51533 (19 files) show significant scope. While many PRs add features, #51379 (157 files) indicates substantial refactoring efforts. Mentorship includes thoughtful comments, such as the detailed request for clarification on error handling in PR #51515, and constructive suggestions in other reviews."
     },
     "pauldambra": {
-      "technical_complexity": 7,
-      "mentorship_signal": 6,
+      "technical_complexity": 4,
+      "mentorship_signal": 3,
       "is_refactor_heavy": false,
-      "impact_persona": "The Pragmatic Refactorer",
-      "summary_justification": "High volume of PRs (225) with a mix of features and fixes, indicating consistent output. PRs like #53340 and #53170 show significant scope and complexity. Mentorship signal is moderate (285 reviews), with some detailed comments alongside many approvals, suggesting a balance between contribution and guidance. Not refactor-heavy as new features are frequently added."
+      "impact_persona": "The Feature Enhancer",
+      "summary_justification": "High volume of PRs focused on improving existing features and fixing bugs, particularly within the \"Taxonomic Filter\" and \"Insights\" components. PRs often involve modifying multiple files and adding new functionality, demonstrating a good grasp of the codebase. Mentorship signal is moderate due to a high number of zero-comment reviews, but some constructive comments indicate engagement."
     },
     "cubic-dev-ai": {
       "technical_complexity": 1,
-      "mentorship_signal": 1,
+      "mentorship_signal": 9,
       "is_refactor_heavy": false,
-      "impact_persona": "The Reviewer",
-      "summary_justification": "The developer provided 543 reviews, indicating a high volume of engagement. However, the reviews themselves appear to be automated, as indicated by the \"cubic:attribution\" comments. The reviews do not demonstrate significant technical complexity or mentorship quality. The focus is on identifying issues rather than refactoring or new development."
+      "impact_persona": "The Sentinel",
+      "summary_justification": "The developer provided 543 reviews, demonstrating a high commitment to code quality. The reviews indicate a focus on identifying specific issues (\"1 issue found\") and preventing regressions, acting as a gatekeeper for code integrity."
     },
     "andrewm4894": {
       "technical_complexity": 7,
       "mentorship_signal": 4,
       "is_refactor_heavy": false,
-      "impact_persona": "The Feature Implementer",
-      "summary_justification": "High volume of feature additions and fixes in the LLMA space, enabling new MCP tools and improving existing ones (e.g., PRs #53378, #53115, #53107). Fixes addressed key issues in normalization and API access (PRs #53031, #53190). Mentorship signal is moderate due to many reviews lacking detailed comments."
+      "impact_persona": "The Feature Broadcaster",
+      "summary_justification": "The developer has authored 250 PRs in 90 days, with many PRs enabling new LLM analytics features and MCP tools (e.g., #53189, #53113, #53107). PRs are often medium-to-large in scope (e.g., #53378, #53115, #52749). Mentorship signal is moderate, with many reviews lacking detailed comments (e.g., 13/15 reviews shown are simple \"APPROVED\")."
     },
     "webjunkie": {
-      "technical_complexity": 6,
-      "mentorship_signal": 5,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Visual Review Engineer",
-      "summary_justification": "PRs like #52759 and #52036 show significant work on the visual review system. Many PRs are bug fixes like #52557, #52997 and #52535. Review comments are generally brief, lacking depth."
-    },
-    "haacked": {
       "technical_complexity": 7,
       "mentorship_signal": 6,
       "is_refactor_heavy": false,
-      "impact_persona": "The Flagship Optimizer",
-      "summary_justification": "High volume of PRs (128) focused on the feature flags system, including complex additions like HyperCacheWriter (PR #52793) and auth token cache mechanisms (PR #52370). Reviews are frequent but often contain non-blocking suggestions, indicating a focus on incremental improvements and guidance rather than deep architectural mentorship. PRs frequently involve significant file changes and intricate logic, justifying the technical complexity score."
-    },
-    "Radu-Raicea": {
-      "technical_complexity": 7,
-      "mentorship_signal": 3,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Feature Extender",
-      "summary_justification": "The developer has demonstrated a strong ability to deliver new features in the LLM analytics domain, as evidenced by PRs like #50993 and #50722 which introduced significant UI and backend components. The majority of PRs are feature-focused rather than refactoring. While 322 reviews were given, the lack of detailed comments suggests a lower signal for mentorship, hence the score of 3."
-    },
-    "dmarticus": {
-      "technical_complexity": 7,
-      "mentorship_signal": 4,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Feature Implementer",
-      "summary_justification": "High volume of feature-focused PRs, many with substantial file/line changes (e.g., #52742, #52782, #52506) demonstrating significant technical contributions. Mentorship signal is moderate, with many approvals lacking detailed feedback, suggesting less depth in code reviews given."
-    },
-    "thmsobrmlr": {
-      "technical_complexity": 5,
-      "mentorship_signal": 6,
-      "is_refactor_heavy": true,
-      "impact_persona": "The Refactorer",
-      "summary_justification": "PRs primarily focus on refactoring legacy code, particularly removing `filters` and replacing them with `queries` (e.g., #53071, #52995, #52958). This indicates a strategic effort to clean up technical debt. Mentorship is moderate, with a mix of approval and constructive comments across many reviews, though many reviews lack detailed comments."
-    },
-    "sampennington": {
-      "technical_complexity": 7,
-      "mentorship_signal": 6,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Pragmatic Builder",
-      "summary_justification": "High volume of PRs (132) with a mix of features and refactors, indicating consistent output. Many refactors focus on improving code structure and test coverage (e.g., #52523, #52522, #52165), suggesting a focus on maintainability. Mentorship signal is moderate, with some detailed comments and suggestions, but also many simple approvals."
+      "impact_persona": "The Visual Review Optimizer",
+      "summary_justification": "Consistently improved the visual review system, notably PRs #52759 and #52359 which introduced server-side baselines and optimized hashing. Also addressed CI and dev environment issues in multiple PRs. Mentorship seems moderate, with some constructive comments like in review for #52873 but many approvals lacking depth."
     }
   }
 }
