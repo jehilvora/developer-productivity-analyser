@@ -153,7 +153,7 @@ def main():
 
         profiles[username] = profile.model_dump()
         print(f"persona={profile.impact_persona!r}  complexity={profile.technical_complexity}  mentorship={profile.mentorship_signal}")
-        time.sleep(5)  # Rate limit pause
+        time.sleep(20)  # Rate limit pause
 
     output = {
         "meta": {

@@ -8,78 +8,78 @@
       "issues_closed": 3.0,
       "reviews_given": 1.5
     },
-    "generated_at": "2026-04-04T23:11:01.550167+00:00"
+    "generated_at": "2026-04-05T01:29:07.624722+00:00"
   },
   "users": [
     {
-      "username": "greptile-apps",
-      "score": 889.5,
-      "prs": 0,
-      "issues_closed": 0,
-      "reviews_given": 593
-    },
-    {
-      "username": "graphite-app",
-      "score": 291.0,
-      "prs": 0,
-      "issues_closed": 0,
-      "reviews_given": 194
-    },
-    {
-      "username": "copilot-pull-request-reviewer",
-      "score": 264.0,
-      "prs": 0,
-      "issues_closed": 0,
-      "reviews_given": 176
-    },
-    {
-      "username": "dmarticus",
-      "score": 195.0,
-      "prs": 12,
-      "issues_closed": 47,
-      "reviews_given": 20
+      "username": "rafaeelaudibert",
+      "score": 1035.5,
+      "prs": 145,
+      "issues_closed": 3,
+      "reviews_given": 491
     },
     {
       "username": "pauldambra",
-      "score": 174.5,
-      "prs": 34,
+      "score": 937.5,
+      "prs": 225,
       "issues_closed": 20,
-      "reviews_given": 31
+      "reviews_given": 285
     },
     {
-      "username": "rafaeelaudibert",
-      "score": 130.5,
-      "prs": 15,
-      "issues_closed": 7,
-      "reviews_given": 53
-    },
-    {
-      "username": "arthurdedeus",
-      "score": 121.5,
-      "prs": 9,
-      "issues_closed": 29,
-      "reviews_given": 11
+      "username": "cubic-dev-ai",
+      "score": 814.5,
+      "prs": 0,
+      "issues_closed": 0,
+      "reviews_given": 543
     },
     {
       "username": "andrewm4894",
-      "score": 120.5,
-      "prs": 34,
+      "score": 789.5,
+      "prs": 250,
       "issues_closed": 9,
-      "reviews_given": 17
+      "reviews_given": 175
     },
     {
-      "username": "sampennington",
-      "score": 115.0,
-      "prs": 29,
-      "issues_closed": 10,
-      "reviews_given": 18
+      "username": "webjunkie",
+      "score": 626.0,
+      "prs": 175,
+      "issues_closed": 1,
+      "reviews_given": 182
+    },
+    {
+      "username": "haacked",
+      "score": 584.5,
+      "prs": 128,
+      "issues_closed": 19,
+      "reviews_given": 181
+    },
+    {
+      "username": "Radu-Raicea",
+      "score": 579.0,
+      "prs": 48,
+      "issues_closed": 0,
+      "reviews_given": 322
+    },
+    {
+      "username": "dmarticus",
+      "score": 573.5,
+      "prs": 118,
+      "issues_closed": 40,
+      "reviews_given": 145
     },
     {
       "username": "thmsobrmlr",
-      "score": 112.5,
-      "prs": 24,
-      "issues_closed": 13,
-      "reviews_given": 17
+      "score": 555.0,
+      "prs": 96,
+      "issues_closed": 9,
+      "reviews_given": 224
+    },
+    {
+      "username": "sampennington",
+      "score": 522.0,
+      "prs": 132,
+      "issues_closed": 10,
+      "reviews_given": 152
     }
   ]
 }

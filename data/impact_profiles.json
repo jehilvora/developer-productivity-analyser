@@ -1,79 +1,79 @@
 {
   "meta": {
-    "model": "gemini-2.5-flash",
+    "model": "gemini-2.5-flash-lite",
     "repo": "PostHog/posthog",
-    "generated_at": "2026-04-04T23:30:00.441784+00:00"
+    "generated_at": "2026-04-05T03:28:57.158933+00:00"
   },
   "profiles": {
-    "greptile-apps": {
-      "technical_complexity": 6,
-      "mentorship_signal": 9,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Code Sentinel",
-      "summary_justification": "Demonstrated strong technical acumen through a detailed 'CHANGES_REQUESTED' review, identifying a complex recurring bug in duckgres job handling. Provided 593 reviews, with the aforementioned review showcasing deep critical analysis and constructive feedback. Primarily focused on code quality assurance through extensive reviewing rather than authoring new features or refactors."
-    },
-    "graphite-app": {
-      "technical_complexity": 1,
-      "mentorship_signal": 1,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Silent Observer",
-      "summary_justification": "Authored 0 PRs, providing no direct technical contributions to evaluate. Gave 194 reviews, but all listed reviews had 'no comment body', indicating a complete lack of constructive feedback or active engagement in code quality. Consequently, both technical complexity and mentorship signal are minimal."
-    },
-    "copilot-pull-request-reviewer": {
-      "technical_complexity": 1,
-      "mentorship_signal": 1,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Summarizer",
-      "summary_justification": "The developer is an automated bot that provides high-level \"Pull request overview\" summaries (e.g., \"Adds \u2018Suggested filters\u2019...\"). There is no evidence of original code authorship or deep technical contribution. Review comments lack constructive feedback, indicating no mentorship signal."
-    },
-    "dmarticus": {
-      "technical_complexity": 9,
-      "mentorship_signal": 3,
-      "is_refactor_heavy": false,
-      "impact_persona": "The Platform Extender",
-      "summary_justification": "Authored multiple large feature PRs (#52742, #52506, #52782) significantly expanding feature flag capabilities.\nDemonstrated high technical depth, including multi-language changes (Rust in #52948) and complex problem-solving.\nConsistently delivered substantial new functionalities rather than refactoring.\nProvided 20 reviews, though most lacked detailed commentary, primarily serving to unblock."
-    },
-    "pauldambra": {
-      "technical_complexity": 9,
-      "mentorship_signal": 7,
-      "is_refactor_heavy": true,
-      "impact_persona": "The Architect",
-      "summary_justification": "Delivered major features like #53340 (taxonomic filter pinning) and #53170 (Replay Doctor tab). Led significant refactoring efforts, such as #53377 and #53366, standardizing UI components. Consistently tackled complex bugs (#53386, #53383) and integrated AI capabilities (#53172). Provided thoughtful review feedback, e.g., strategic suggestions on feature rollout via variant flags. Demonstrated high technical breadth and depth across many large PRs."
-    },
     "rafaeelaudibert": {
-      "technical_complexity": 9,
-      "mentorship_signal": 9,
-      "is_refactor_heavy": true,
-      "impact_persona": "The Systems Architect",
-      "summary_justification": "Authored significant refactoring PRs (e.g., #53103, #53104), demonstrating deep system understanding and a commitment to code health.\nDelivered complex features like OAuth region metadata (#53272) and improved error handling for custom URI schemes (#53273).\nProvided insightful and constructive code reviews (e.g., querying Vercel behavior, identifying missing user support for Stripe/Revenue Analytics), elevating overall code quality."
-    },
-    "arthurdedeus": {
-      "technical_complexity": 8,
+      "technical_complexity": 7,
       "mentorship_signal": 6,
       "is_refactor_heavy": false,
-      "impact_persona": "The Revenue Architect",
-      "summary_justification": "Arthur significantly contributed to the revenue analytics platform, tackling complex data challenges (e.g., materialized views in #52929, #53119) and building foundational tools (#52433). Their work involved deep technical solutions across multiple files. Review feedback was occasionally insightful, focusing on testing and design considerations."
+      "impact_persona": "The Integrator",
+      "summary_justification": "High volume of PRs (145) focused on feature additions and fixes, particularly around OAuth and app integrations (e.g. Stripe, Vercel). Mentorship is present but could be deeper, with several approvals lacking detailed comments. PR #51379 shows refactoring but is an outlier."
+    },
+    "pauldambra": {
+      "technical_complexity": 7,
+      "mentorship_signal": 6,
+      "is_refactor_heavy": false,
+      "impact_persona": "The Pragmatic Refactorer",
+      "summary_justification": "High volume of PRs (225) with a mix of features and fixes, indicating consistent output. PRs like #53340 and #53170 show significant scope and complexity. Mentorship signal is moderate (285 reviews), with some detailed comments alongside many approvals, suggesting a balance between contribution and guidance. Not refactor-heavy as new features are frequently added."
+    },
+    "cubic-dev-ai": {
+      "technical_complexity": 1,
+      "mentorship_signal": 1,
+      "is_refactor_heavy": false,
+      "impact_persona": "The Reviewer",
+      "summary_justification": "The developer provided 543 reviews, indicating a high volume of engagement. However, the reviews themselves appear to be automated, as indicated by the \"cubic:attribution\" comments. The reviews do not demonstrate significant technical complexity or mentorship quality. The focus is on identifying issues rather than refactoring or new development."
     },
     "andrewm4894": {
-      "technical_complexity": 9,
-      "mentorship_signal": 3,
-      "is_refactor_heavy": false,
-      "impact_persona": "The AI Enabler",
-      "summary_justification": "High impact in LLM Analytics, delivering numerous new agent tools and capabilities. PRs like #53107 (+521/-5) and #53115 (+442/-32) demonstrate complex feature development. Tackled challenging problems such as diff-based prompt edits (#53378) and LangChain message normalization (#53031). Review activity (17 reviews) indicates participation, though detailed feedback is often absent."
-    },
-    "sampennington": {
-      "technical_complexity": 9,
+      "technical_complexity": 7,
       "mentorship_signal": 4,
       "is_refactor_heavy": false,
-      "impact_persona": "The Foundation Builder",
-      "summary_justification": "Spearheaded the development of the new hog-charts library (e.g., #52599), establishing a unified charting foundation. Contributed significantly to quality assurance through extensive unit and Storybook testing for hog-charts core modules (#53308, #53298). Implemented key charting features like D3 stacking and pinnable tooltips (#53380, #53389). Reviews were generally positive, but often brief, indicating less emphasis on deep mentorship."
+      "impact_persona": "The Feature Implementer",
+      "summary_justification": "High volume of feature additions and fixes in the LLMA space, enabling new MCP tools and improving existing ones (e.g., PRs #53378, #53115, #53107). Fixes addressed key issues in normalization and API access (PRs #53031, #53190). Mentorship signal is moderate due to many reviews lacking detailed comments."
+    },
+    "webjunkie": {
+      "technical_complexity": 6,
+      "mentorship_signal": 5,
+      "is_refactor_heavy": false,
+      "impact_persona": "The Visual Review Engineer",
+      "summary_justification": "PRs like #52759 and #52036 show significant work on the visual review system. Many PRs are bug fixes like #52557, #52997 and #52535. Review comments are generally brief, lacking depth."
+    },
+    "haacked": {
+      "technical_complexity": 7,
+      "mentorship_signal": 6,
+      "is_refactor_heavy": false,
+      "impact_persona": "The Flagship Optimizer",
+      "summary_justification": "High volume of PRs (128) focused on the feature flags system, including complex additions like HyperCacheWriter (PR #52793) and auth token cache mechanisms (PR #52370). Reviews are frequent but often contain non-blocking suggestions, indicating a focus on incremental improvements and guidance rather than deep architectural mentorship. PRs frequently involve significant file changes and intricate logic, justifying the technical complexity score."
+    },
+    "Radu-Raicea": {
+      "technical_complexity": 7,
+      "mentorship_signal": 3,
+      "is_refactor_heavy": false,
+      "impact_persona": "The Feature Extender",
+      "summary_justification": "The developer has demonstrated a strong ability to deliver new features in the LLM analytics domain, as evidenced by PRs like #50993 and #50722 which introduced significant UI and backend components. The majority of PRs are feature-focused rather than refactoring. While 322 reviews were given, the lack of detailed comments suggests a lower signal for mentorship, hence the score of 3."
+    },
+    "dmarticus": {
+      "technical_complexity": 7,
+      "mentorship_signal": 4,
+      "is_refactor_heavy": false,
+      "impact_persona": "The Feature Implementer",
+      "summary_justification": "High volume of feature-focused PRs, many with substantial file/line changes (e.g., #52742, #52782, #52506) demonstrating significant technical contributions. Mentorship signal is moderate, with many approvals lacking detailed feedback, suggesting less depth in code reviews given."
     },
     "thmsobrmlr": {
-      "technical_complexity": 8,
-      "mentorship_signal": 8,
+      "technical_complexity": 5,
+      "mentorship_signal": 6,
       "is_refactor_heavy": true,
-      "impact_persona": "The System Modernizer",
-      "summary_justification": "@thmsobrmlr is systematically modernizing the codebase, exemplified by the large-scale \"filters to queries\" refactor across funnels (#52952, #52995). They've also contributed complex infrastructure work, like RowBinary protocol support for UDFs (#52930). Their reviews are constructive, with notable examples like identifying a regression and providing clear bug reports with images."
+      "impact_persona": "The Refactorer",
+      "summary_justification": "PRs primarily focus on refactoring legacy code, particularly removing `filters` and replacing them with `queries` (e.g., #53071, #52995, #52958). This indicates a strategic effort to clean up technical debt. Mentorship is moderate, with a mix of approval and constructive comments across many reviews, though many reviews lack detailed comments."
+    },
+    "sampennington": {
+      "technical_complexity": 7,
+      "mentorship_signal": 6,
+      "is_refactor_heavy": false,
+      "impact_persona": "The Pragmatic Builder",
+      "summary_justification": "High volume of PRs (132) with a mix of features and refactors, indicating consistent output. Many refactors focus on improving code structure and test coverage (e.g., #52523, #52522, #52165), suggesting a focus on maintainability. Mentorship signal is moderate, with some detailed comments and suggestions, but also many simple approvals."
     }
   }
 }

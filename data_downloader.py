@@ -149,7 +149,7 @@ def fetch_prs(owner: str, repo: str, cutoff: datetime) -> list[dict]:
         if stop or not page_data["pageInfo"]["hasNextPage"]:
             break
         cursor = page_data["pageInfo"]["endCursor"]
-        time.sleep(0.5)
+        time.sleep(5)
 
     return prs
 
@@ -187,7 +187,6 @@ def fetch_issues(owner: str, repo: str, cutoff: datetime) -> list[dict]:
         if not page_data["pageInfo"]["hasNextPage"]:
             break
         cursor = page_data["pageInfo"]["endCursor"]
-        time.sleep(0.5)
 
     return issues
 

@@ -27,7 +27,7 @@ BOT_SUBSTRING = ["[bot]", "copilot", "-app"]
 
 # ── LLM ───────────────────────────────────────────────────────────────────────
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
-LLM_MODEL = "gemini-2.5-flash"
+LLM_MODEL = "gemini-2.5-flash-lite"
 
 MAX_PRS_FOR_LLM = 20
 MAX_REVIEWS_FOR_LLM = 15
